@@ -1,0 +1,115 @@
+.navegador {
+    border-bottom: 1px solid rgb(238,238,238);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 1rem;
+    z-index: 100 !important;
+    background: white;
+}
+.titulo-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.titulo-menu button{
+    margin: 1rem;
+    margin-right: 3rem;
+}
+/* Nuevo estilo para el fondo semiopaco */
+.fondo-opaco {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.234); 
+    z-index: 120;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.3s ease-in-out;
+}
+.menu-desplegable{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    top: 0;
+    width: 0rem;
+    height: 100vh;
+    z-index: 130;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+}
+/* Desplegar menu */
+.fondo-opaco.active {
+    opacity: 1;
+    visibility: visible;
+}
+.menu-desplegable.active{
+    opacity: 1;
+    visibility: visible;
+    width: 30rem;
+}
+/* =================== */
+
+.menu-desplegable ul{
+    list-style: none;
+    padding-left: 0;
+    padding-top: 1rem;
+}
+.menu-desplegable h3{
+    color: rgb(0,105,152);
+    padding-top: 1.2rem;
+}
+.menu-desplegable a{
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 0.9rem 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.menu-desplegable a:hover{
+    background-color: rgb(242,242,242);
+    text-decoration: underline;
+    color: rgb(0,105,152);
+}
+.menu-desplegable span{
+    padding: 0.9rem 1.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: #444444;
+    display: block;
+}
+
+
+/* pantalla pequeños */
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 2rem !important;
+    }
+    .btn-buscar-nav,.txt-seccion-nav{
+        display: none;
+    }
+}
+
+/* pantalla medianos */
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    h1{
+        font-size: 2rem !important;
+    }
+    .btn-buscar-nav,.txt-seccion-nav{
+        display: none;
+    }
+}
+
+/* pantalla grandes */
+
+@media only screen and (min-width: 1025px) {
+
+}
