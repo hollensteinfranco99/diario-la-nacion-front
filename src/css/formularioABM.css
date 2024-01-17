@@ -1,0 +1,19 @@
+.contenedor-nota-completa{
+    height: 20rem;
+    margin: 5rem 0 6rem 0;
+}
+.contenedor-nota-completa .nota-completa{
+    height: 100%;
+}
+.formulario-categoria{
+    padding: 2rem;
+}
+.formulario-categoria button{
+    width: 100%;
+}
+.form-login{
+    margin-top: 1rem;
+}
+.login-titulo h4{
+    font-family: var(--bs-body-font-family);
+}

@@ -7,6 +7,12 @@
     padding: 0 1rem;
     z-index: 100 !important;
     background: white;
+    height: auto;
+}
+.contenedor-menu{
+    max-height: 100vh;
+    position: fixed;
+    z-index: 130;
 }
 .titulo-menu{
     display: flex;
@@ -27,7 +33,7 @@
     z-index: 120;
     opacity: 0;
     visibility: hidden;
-    transition: visibility 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 .menu-desplegable{
     position: absolute;
@@ -35,12 +41,16 @@
     left: 0;
     top: 0;
     width: 0rem;
-    height: 100vh;
+    max-height: 100vh;
     z-index: 130;
+    overflow: auto;
 
     opacity: 0;
     visibility: hidden;
-    transition: all 0.2s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+}
+.contenedor-menu ::-webkit-scrollbar {
+    display: none;
 }
 /* Desplegar menu */
 .fondo-opaco.active {
@@ -63,7 +73,7 @@
     color: rgb(0,105,152);
     padding-top: 1.2rem;
 }
-.menu-desplegable a{
+.menu-desplegable .opc-li-nav{
     color: rgb(0, 0, 0);
     display: block;
     padding: 0.9rem 1.5rem;
@@ -71,7 +81,7 @@
     font-weight: 500;
     font-size: 1rem;
 }
-.menu-desplegable a:hover{
+.menu-desplegable .opc-li-nav:hover{
     background-color: rgb(242,242,242);
     text-decoration: underline;
     color: rgb(0,105,152);

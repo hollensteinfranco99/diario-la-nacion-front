@@ -1,0 +1,20 @@
+.contenedor-tabla{
+    overflow-x: auto;
+    margin: 10px;
+}
+.encabezado-tabla{
+    --bs-table-color: rgb(255, 255, 255) !important;
+    --bs-table-bg: rgb(13, 148, 211) !important;
+    --bs-table-border-color: rgb(0,105,152) !important;
+}
+.cont-img-tabla{
+    width: 10rem;
+    height: 10rem;
+    overflow: hidden;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.cont-img-tabla img{
+    width: 100%;
+    object-fit: cover;
+}

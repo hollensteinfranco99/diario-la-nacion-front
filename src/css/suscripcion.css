@@ -1,0 +1,114 @@
+.encabezado-suscripcion h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-weight: 600;
+}
+
+.encabezado-suscripcion {
+    text-align: center;
+}
+
+.encabezado-suscripcion p {
+    font-weight: 400;
+}
+
+.premium-tarjeta {
+    background: rgb(14, 48, 179);
+    background: linear-gradient(118deg, rgba(14, 48, 179, 1) 40%, rgba(25, 75, 207, 1) 100%);
+    color: white;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+/* CARDS */
+.btn-mas-detalle {
+    color: #2368EF;
+    text-decoration: none;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.tarjeta-suscripcion {
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 5px rgba(182, 182, 182, 0.45);
+    border: 1px solid rgba(187, 187, 187, 0.477);
+}
+
+.encabezado-tajeta-suscripcion {
+    background-color: whitesmoke;
+    padding: 1.2rem;
+}
+
+.precio-susc {
+    font-size: 3.2rem;
+    font-weight: 600;
+    font-family: "PrumoDeck-Black";
+}
+
+.span-mes-susc {
+    background: white;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: 1px solid rgba(92, 92, 92, 0.351);
+}
+
+.cuerpo-susc-tarjeta {
+    padding: 1rem 0.5rem;
+}
+
+.cuerpo-susc-tarjeta .btn {
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+/* LISTA COLLAPSE DETALLE */
+.lista-susc-detalle {
+    list-style: none;
+
+}
+
+.lista-susc-detalle li {
+    margin-bottom: 5px;
+}
+
+.lista-susc-detalle b,
+svg {
+    color: rgb(2, 80, 201) !important;
+}
+
+.lista-susc-detalle svg {
+    margin-right: 0.3rem;
+}
+
+/* TEXTO INFO */
+.info-contacto-suscripcion {
+    padding: 5rem 0;
+}
+
+.info-contacto-suscripcion p {
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.info-contacto-suscripcion .p-color {
+    color: rgb(2, 80, 201) !important;
+    font-weight: 500;
+}
+
+/* PREGUNTAS */
+.preguntas-suscripcion {
+    border: 1px solid rgba(148, 148, 148, 0.425);
+    padding: 3rem;
+    border-radius: 0.5rem;
+}
+
+.preguntas-suscripcion ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.preguntas-suscripcion h3 {
+    font-family: 'Times New Roman', Times, serif !important;
+    font-weight: 400;
+}

@@ -1,8 +1,9 @@
 .contenedor-inicio {
     z-index: 20;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
 }
+
 
 .contenedor-cambio {
     padding: 5rem 1rem 1rem 1rem;

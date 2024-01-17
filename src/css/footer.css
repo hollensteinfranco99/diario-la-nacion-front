@@ -1,0 +1,23 @@
+.contenedor-footer{
+    background-color: white;
+    width: 100%;
+}
+.titulo-footer{
+    color: rgb(0,105,152) !important;
+    text-align: center;
+}
+.categorias-footer ul, .redes-footer ul, .accesos-directos-footer ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0.5rem;
+}
+.categorias-footer a, .accesos-directos-footer a{
+    text-decoration: none;
+    color: black;
+}
+.categorias-footer a:hover, .accesos-directos-footer a:hover{
+    text-decoration: underline;
+}
+.copy-footer{
+    text-align: center;
+}
