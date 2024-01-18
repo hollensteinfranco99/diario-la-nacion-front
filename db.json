@@ -1,0 +1,56 @@
+{
+    "noticia": [
+        {
+            "id": "6384",
+            "imagen": "",
+            "fecha": "10/03/2024",
+            "titulo": "\"APOP\". La empresa argentina que llegó a Tesla con un innovador producto",
+            "resumen": "Desde hace dos meses, Intuitivo colocó sus “APOP” en la planta más importante de la compañía de Elon Musk; está presente en seis países y logró partnerships con gigantes como Nvidia y Globant",
+            "categoria_id": "",
+            "categoria_nombre": "",
+            "etiquetas": [
+                "Tesla",
+                "Economia",
+                "Tomas Manzitti",
+                "Franco Hollenstein",
+                "Elon Musk"
+            ],
+            "nota_completa": "<p>Desde hace dos meses, Intuitivo colocó sus “APOP” en la planta más importante de la compañía de Elon Musk; está presente en seis países y logró partnerships con gigantes como Nvidia y Globant</p><p><br></p><p><br></p><p>La&nbsp;<strong>Gigafactory de Tesla en Austin</strong>, Texas, cuenta con alrededor de 20.000 empleados. Sirve de&nbsp;<em>headquarters&nbsp;</em>de la empresa y es&nbsp;<strong>la segunda fábrica más grande de Estados Unidos</strong>. Además, es&nbsp;<strong>la segunda más grande por volumen del mundo</strong>, solo detrás de la planta de Boeing Everett. Desde noviembre pasado, es también&nbsp;<strong>uno de los clientes más importantes de la empresa argentina Intuitivo</strong>.</p><p>Apadrinados por la red de emprendedores Endeavour el año pasado, Intuitivo nació en 2019. Sus fundadores son&nbsp;<strong>Nicolás Parziale, Tomás Manzitti y José Benitez Genes</strong>. Y en los últimos años conquistó inversiones, mercados y clientes a base de&nbsp;<strong>innovar sobre un producto</strong>&nbsp;que parecía haber quedado afuera de los cambios tecnológicos:&nbsp;<strong>las máquinas expendedoras</strong>.</p><p><br></p><p><br></p><p>“Las máquinas expendedoras&nbsp;<strong>tenían muchas limitaciones</strong>: hardware caro, operación compleja, abastecimiento sin datos, limitación de productos a vender, no flexibilidad en pagos”, explica Manzitti. Por eso la visión de Intuitivo fue juntar las tradicionales máquinas con inteligencia artificial y&nbsp;<em>machine learning</em>, y&nbsp;<strong>crear un nuevo producto, los APOP</strong>&nbsp;(<em>autonomous point of purchase</em>&nbsp;o punto autónomo de venta).</p><p>¿Cómo funciona un APOP?&nbsp;<strong>Se ve parecido a una máquina expendedora, pero su uso es más sencillo</strong>. El usuario escanea un QR que está en la puerta, elige un método de pago, se destraba la puerta de la heladera, toma el producto que quiere, cierra la puerta y luego se completa la transacción.&nbsp;<strong>Sin introducir billetes ni monedas, ni pagar con un QR</strong>. La máquina graba videos de las transacciones y captura toda la información en la nube. Entonces, se procesa esta información y se la carga a la cuenta del cliente.</p><p><br></p><p>“<strong>A Tesla llegamos a través de un&nbsp;<em>partnership&nbsp;</em>con la empresa de&nbsp;<em>foodservice&nbsp;</em>que opera dentro de la compañía</strong>, que buscaba atacar el alto&nbsp;<em>shrinkage&nbsp;</em>que tenía. Los APOP venden bebidas energizantes, bebidas sin alcohol, snacks y sándwiches. Y en los primeros dos meses de operación&nbsp;<strong>vendieron un 20% más que el sistema instalado previamente</strong>”, explica Manzitti a LA NACION.</p><p>La empresa argentina, que cuenta con&nbsp;<strong>40 empleados</strong>, instaló ya&nbsp;<strong>30 APOP en la fábrica de Tesla, y va a instalar 100 más</strong>. Está presente en seis países -EE.UU., Brasil, México, España, Perú y la Argentina-, con 1055 productos instalados en diferentes organizaciones, entre ellas 21&nbsp;<em>retailers</em>.</p><p>Intuitivo&nbsp;<strong>recibió inversiones de empresarios como Marcos Galperin, de Mercado Libre; Patricio Jutard, de Mural, y Sebastián Serrano, de Ripio</strong>. Además, logró&nbsp;<em>partnerships&nbsp;</em>con empresas como Globant, AWS, OpenCV, VisualLayer, Nvidia, Ultralytics y SuperbAI. Benitez Genes, actual director de AI de la compañía, fue galardonado por MIT Technology Review como uno de los 35 Innovadores menores de 35 LATAM.</p><p><strong>¿Cuáles son los objetivos de Intuitivo para este año?&nbsp;</strong>“Por un lado seguir agrandando nuestra infraestructura para responder a la demanda creciente que se viene generando, y por otro seguir creando nuevos productos con AI para el futuro del&nbsp;<em>retail</em>. La industria de&nbsp;<em>retail&nbsp;</em>físico está muy poco digitalizada, y específicamente la de retail minorista, desatendida. Hoy prácticamente no tiene penetración en Latinoamérica. La empresa además se está posicionando en el ámbito de la inteligencia artificial. Nuestra meta es clara: ser la plataforma de AI más confiable y escalable en la industria”, cuenta Manzitti.</p><p><br></p>",
+            "autor": "Franco Hollenstein"
+        }
+    ],
+    "categoria": [
+        {
+            "id": "1",
+            "nombre": "Actualidad"
+        },
+        {
+            "id": "2",
+            "nombre": "Espectáculos"
+        },
+        {
+            "id": "3",
+            "nombre": "Tecnología"
+        },
+        {
+            "id": "4",
+            "nombre": "Deportes"
+        },
+        {
+            "id": "5",
+            "nombre": "Política"
+        },
+        {
+            "id": "6",
+            "nombre": "Salud"
+        },
+        {
+            "id": "7",
+            "nombre": "Fotografía"
+        },
+        {
+            "id": "8",
+            "nombre": "Economía"
+        }
+    ]
+}

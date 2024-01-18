@@ -24,8 +24,9 @@ const Login = () => {
                                 <button className='btn btn-primary w-100'>Iniciar sesión</button>
                             </div>
                         </form>
-                        <div className='mt-4'>
+                        <div className='mt-4 d-flex flex-column text-center'>
                             <span>¿No tenés cuenta? <Link to={'/registrar'}> Registrate SIN CARGO</Link> </span>
+                            <span className='mt-3'>¿Has olvidado tu contraseña? <Link to={'/registrar'}> Recuperar contraseña</Link> </span>
                         </div>
                     </div>
                 </article>

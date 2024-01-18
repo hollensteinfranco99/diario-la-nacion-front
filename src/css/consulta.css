@@ -1,11 +1,7 @@
 .contenedor-tabla{
     overflow-x: auto;
     margin: 10px;
-}
-.encabezado-tabla{
-    --bs-table-color: rgb(255, 255, 255) !important;
-    --bs-table-bg: rgb(13, 148, 211) !important;
-    --bs-table-border-color: rgb(0,105,152) !important;
+
 }
 .cont-img-tabla{
     width: 10rem;
@@ -17,4 +13,7 @@
 .cont-img-tabla img{
     width: 100%;
     object-fit: cover;
+}
+.contenedor-tabla table{
+    /*width: 80rem !important; Dispositivos moviles */
 }

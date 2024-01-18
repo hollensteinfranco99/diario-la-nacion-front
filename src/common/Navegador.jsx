@@ -64,8 +64,8 @@ const Navegador = () => {
                         <li><Link onClick={() => desplegarMenu()} className='opc-li-nav' to={'/noticiaAdmin'}>Nueva noticia</Link></li>
                         <li><Link onClick={() => desplegarMenu()} className='opc-li-nav' to={'/categorias'}>Categorias</Link></li>
                         <li><Link onClick={() => desplegarMenu()} className='opc-li-nav' to={'/categoriaAdmin'}>Nueva Categoria</Link></li>
-                        <li><Link onClick={() => desplegarMenu()} className='opc-li-nav' to={'/'}>Usuario</Link></li>
-                        <li><Link onClick={() => desplegarMenu()} className='opc-li-nav' to={'/'}>Empleados</Link></li>
+                        <li><Link onClick={() => desplegarMenu()} className='opc-li-nav' to={'/usuarios'}>Usuario</Link></li>
+                        <li><Link onClick={() => desplegarMenu()} className='opc-li-nav' to={'/empleados'}>Empleados</Link></li>
                         {/* Usuario */}
                         <hr />
                         <li><Link onClick={() => desplegarMenu()} className='opc-li-nav' to={'/seccion/deportes'}>Actualidad</Link></li>

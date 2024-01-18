@@ -14,6 +14,10 @@ import Login from './components/login/Login';
 import Registrar from './components/login/Registrar';
 import Contacto from './components/Contacto';
 import AcercaDeNosotros from './components/AcercaDeNosotros';
+import UsuarioConsulta from './components/usuarios/UsuarioConsulta';
+import UsuarioABM from './components/usuarios/UsuarioABM';
+import EmpleadoABM from './components/empleados/EmpleadoABM';
+import EmpleadoConsulta from './components/empleados/EmpleadoConsulta';
 
 
 function App() {
@@ -36,6 +40,12 @@ function App() {
 
           <Route exact path='/nosotros' element={<AcercaDeNosotros></AcercaDeNosotros>}></Route>
           <Route exact path='/contacto' element={<Contacto></Contacto>}></Route>
+
+          <Route exact path='/usuarios' element={<UsuarioConsulta></UsuarioConsulta>}></Route>
+          <Route exact path='/usuarios/nuevo' element={<UsuarioABM></UsuarioABM>}></Route>
+
+          <Route exact path='/empleados/nuevo' element={<EmpleadoABM></EmpleadoABM>}></Route>
+          <Route exact path='/empleados' element={<EmpleadoConsulta></EmpleadoConsulta>}></Route>
 
         </Routes>
         <PiePagina></PiePagina>

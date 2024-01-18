@@ -6,7 +6,7 @@ const CategoriaABM = () => {
         <div className='contenedor-principal'>
             <section className='container'>
             <section className='my-4'>
-                <h2>Administrar Categoria</h2>
+                <h2>AGREGAR CATEGORIA</h2>
                 <hr />
             </section>
             <section className='formulario-categoria'>
